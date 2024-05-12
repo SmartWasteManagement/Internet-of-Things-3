@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>plastic844_jpg.rf.e4d78868cc0ee31dff9897b7795fb9ef.jpg</filename>
+	<path>plastic844_jpg.rf.e4d78868cc0ee31dff9897b7795fb9ef.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>CARDBOARD</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>34</xmin>
+			<xmax>386</xmax>
+			<ymin>116</ymin>
+			<ymax>296</ymax>
+		</bndbox>
+	</object>
+</annotation>

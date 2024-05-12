@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>plastic575_jpg.rf.7653ffa2f450dd2c7c4c89786cb673bf.jpg</filename>
+	<path>plastic575_jpg.rf.7653ffa2f450dd2c7c4c89786cb673bf.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>PLASTIC</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>415</xmax>
+			<ymin>23</ymin>
+			<ymax>346</ymax>
+		</bndbox>
+	</object>
+</annotation>

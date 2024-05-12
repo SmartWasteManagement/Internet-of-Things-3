@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>glass1316_jpg.rf.c2c1d5116832b2499d7bf5164c564adc.jpg</filename>
+	<path>glass1316_jpg.rf.c2c1d5116832b2499d7bf5164c564adc.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>GLASS</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>124</xmin>
+			<xmax>288</xmax>
+			<ymin>20</ymin>
+			<ymax>392</ymax>
+		</bndbox>
+	</object>
+</annotation>

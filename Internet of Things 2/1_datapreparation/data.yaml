@@ -1,0 +1,11 @@
+train: data_images/train
+val: data_images/test
+
+nc: 6
+names: ["BIODEGRADABLE",
+        "GLASS",
+        "PLASTIC",
+        "METAL",
+        "CARDBOARD",
+        "PAPER"
+]

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>cardboard679_jpg.rf.8a64e0d46dee73c1f31e674d51bb8ee6.jpg</filename>
+	<path>cardboard679_jpg.rf.8a64e0d46dee73c1f31e674d51bb8ee6.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>CARDBOARD</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>2</xmin>
+			<xmax>414</xmax>
+			<ymin>3</ymin>
+			<ymax>355</ymax>
+		</bndbox>
+	</object>
+</annotation>

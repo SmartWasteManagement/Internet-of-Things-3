@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>biodegradable271_jpg.rf.fbb9bc41440fc87e1acb1f1d97ad2875.jpg</filename>
+	<path>biodegradable271_jpg.rf.fbb9bc41440fc87e1acb1f1d97ad2875.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>BIODEGRADABLE</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>17</xmin>
+			<xmax>399</xmax>
+			<ymin>20</ymin>
+			<ymax>407</ymax>
+		</bndbox>
+	</object>
+</annotation>

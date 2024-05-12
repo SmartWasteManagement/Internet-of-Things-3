@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title of the HTML page -->
+    <title>Safeguard - Pothole Detection Companion</title>
+    <!-- CSS styles for the page -->
+
+    <style>
+    /* Your CSS styles here */
+    </style>
+</head>
+
+<body>
+    <!-- Main container for content -->
+    <div class="container">
+        <!-- Container for the logo -->
+
+        <div class="logo-container">
+            <!-- App logo -->
+            <img id="app-logo" src="{{ url_for('static', filename='Screenshot 2023-12-10 at 7.07.42 PM.png') }}" alt="App Logo">
+        </div>
+        <!-- Main heading -->
+
+        <h1>Welcome to Safeguard</h1>
+         <!-- Subtitle -->
+        <p class="subtitle">Activate Our App with Your Live Camera for Real-Time Pothole Detection</p>
+        <!-- Container for button -->
+        <div class="button-container">
+            <!-- Start button -->
+            <a class="button" href="{{ url_for('index') }}">Start</a>
+        </div>
+    </div>
+</body>
+
+</html>

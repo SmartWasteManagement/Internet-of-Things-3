@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title of the HTML page -->
+    <title>Cruise Confidently: EcoVision - Your Trusted Waste Management Companion</title>
+    <!-- CSS styles for the page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            text-align: center;
+        }
+
+        #video-stream {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #app-logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+     <!-- Main container for content -->
+    <div class="container">
+        <!-- Container for the logo -->
+        <div class="logo-container">
+            <!-- App logo -->
+            <img id="app-logo" src="{{ url_for('static', filename='Screenshot 2024-05-01 at 11.06.47 PM.png') }}" alt="App Logo">
+        </div>
+        <!-- Main heading -->
+        <h1>Welcome to Ecovision</h1>
+        <!-- Subtitle -->
+
+        <p class="subtitle">Empowering a Sustainable Future: Safeguarding Our Environment Through Intelligent Waste Management</p>
+        <!-- Container for video stream -->
+        <div class="video-container">
+             <!-- Video stream -->
+            <img id="video-stream" src="{{ url_for('video') }}" alt="Video Stream">
+        </div>
+        
+        <!-- Container for buttons -->
+
+        <div class="button-container">
+            <!-- Start camera button -->
+            <button class="button" onclick="startCamera()">Start Camera</button>
+            <!-- Stop camera button -->
+            <button class="button" onclick="stopCamera()">Stop Camera</button>
+        </div>
+    </div>
+
+     <!-- JavaScript code -->
+    <script>
+        // Function to start the camera
+        function startCamera() {
+            // Fetch the /start_camera route
+            fetch('/start_camera')
+                .then(response => {
+                    if (response.ok) {
+                        // If response is ok, set the src attribute of video stream to the updated URL
+                        document.getElementById('video-stream').src = "{{ url_for('video') }}";
+                    }
+                });
+        }
+        // Function to stop the camera
+        function stopCamera() {
+            // Fetch the /stop_camera route
+            fetch('/stop_camera')
+                .then(response => {
+                    if (response.ok) {
+                        // If response is ok, set the src attribute of video stream to an empty string
+                        document.getElementById('video-stream').src = "";
+                    }
+                });
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>paper1983_jpg.rf.7641765d73ad5009fd91c5046f9955df.jpg</filename>
+	<path>paper1983_jpg.rf.7641765d73ad5009fd91c5046f9955df.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>PAPER</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>99</xmin>
+			<xmax>417</xmax>
+			<ymin>2</ymin>
+			<ymax>377</ymax>
+		</bndbox>
+	</object>
+</annotation>

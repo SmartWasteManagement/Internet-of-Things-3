@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>metal734_jpg.rf.b4027fbcdcdb80a0f4d076b85c923d34.jpg</filename>
+	<path>metal734_jpg.rf.b4027fbcdcdb80a0f4d076b85c923d34.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>METAL</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>79</xmin>
+			<xmax>334</xmax>
+			<ymin>57</ymin>
+			<ymax>364</ymax>
+		</bndbox>
+	</object>
+</annotation>
